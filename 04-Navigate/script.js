@@ -1,6 +1,6 @@
 // Select the last child of the <ol> tag and put it at the beginning of the list
-var ol = document.querySelector('ol');
-var lastChild = ol.lastElementChild;
+let ol = document.querySelector('ol');
+let lastChild = ol.lastElementChild;
 ol.prepend(lastChild);
 
 // Move the <h2> of the third section in the second one and vice-versa
