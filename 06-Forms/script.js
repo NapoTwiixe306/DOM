@@ -26,8 +26,8 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   function clearPasswordError() {
-    passwordInput.style.borderColor = '';
-    confirmPasswordInput.style.borderColor = '';
+    passwordInput.style.borderColor = 'green';
+    confirmPasswordInput.style.borderColor = 'green';
   }
 
   passwordInput.addEventListener('keyup', function () {
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   darkModeToggle.addEventListener('change', function () {
     if (darkModeToggle.value === 'dark') {
-      document.body.style.backgroundColor = 'black';
+      document.body.style.backgroundColor = '#232323';
       document.body.style.color = 'white';
     } else {
       document.body.style.backgroundColor = '';
